@@ -13,7 +13,7 @@ export const BRAND_NAME = "Harmonia";
 
 export const CONTACT_INFO = {
   phone: "+48 123 456 789",
-  email: "kontakt@katarzyna-organ.pl",
+  email: "emesik92@gmail.com",
   address: "Konsultacje Online",
   hours: "Poniedziałek - Piątek: 09:00 - 20:00",
   socials: {
@@ -72,16 +72,16 @@ export const PRICES: PriceItem[] = [
     isAvailable: true,
   },
   {
-    title: 'Wsparcie dla Biznesu / HR',
-    price: 'Indywidualna',
-    duration: '60 min',
-    description: 'Konsultacje i wsparcie psychologiczne dla pracowników i kadry zarządzającej.',
+    title: 'Konsultacja Psychoterapeutyczna Stacjonarna',
+    price: '--- PLN',
+    duration: '50 min',
+    description: 'Spotkania gabinetowe w komfortowej przestrzeni. Opcja dostępna wkrótce.',
     features: [
-      'Prewencja wypalenia', 
-      'Zarządzanie stresem', 
-      'Interwencje kryzysowe'
+      'Bezpośredni kontakt', 
+      'Komfortowy gabinet', 
+      'Wsparcie stacjonarne'
     ],
-    isAvailable: true,
+    isAvailable: false,
   },
 ];
 
@@ -112,7 +112,7 @@ export const TESTIMONIALS: TestimonialItem[] = [
 ];
 
 export const COLORS = {
-  primary: 'bg-[#B2C2B2]',
+  primary: 'bg-[#8A9A8A]',
   secondary: 'bg-[#EDE7DE]',
   text: 'text-[#2D3436]',
 };
