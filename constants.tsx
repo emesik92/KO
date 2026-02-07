@@ -12,8 +12,8 @@ import { Heart, ShieldCheck, Zap } from 'lucide-react';
 export const BRAND_NAME = "Harmonia";
 
 export const CONTACT_INFO = {
-  phone: "+48 123 456 789",
-  email: "emesik92@gmail.com",
+  phone: "+48 668 543 338",
+  email: "organk92@gmail.com",
   address: "Konsultacje Online",
   hours: "Poniedziałek - Piątek: 09:00 - 20:00",
   socials: {
@@ -73,7 +73,7 @@ export const PRICES: PriceItem[] = [
   },
   {
     title: 'Konsultacja Psychoterapeutyczna Stacjonarna',
-    price: '--- PLN',
+    price: '199 PLN',
     duration: '50 min',
     description: 'Spotkania gabinetowe w komfortowej przestrzeni. Opcja dostępna wkrótce.',
     features: [
@@ -92,7 +92,7 @@ export const FAQS: FaqItem[] = [
   },
   {
     question: 'Czym jest nurt poznawczo-behawioralny (CBT)?',
-    answer: 'To nurt terapeutyczny o udowodnionej naukowo skuteczności. Skupia się na powiązaniach między naszymi myślami, emocjami i zachowaniami, pomagając wypracować zdrowsze mechanizmy funkcjonowania.',
+    answer: 'To nurt terapeutyczny o udowodnionej naukowo skuteczności. Skupia się na powiązaniach między naszymi myślami, emocjami i zachowaniami, pomagając wypracować zdrowsze mechanizmechanizmy funkcjonowania.',
   },
   {
     question: 'Czy pracujesz z osobami z diagnozą ADHD?',
