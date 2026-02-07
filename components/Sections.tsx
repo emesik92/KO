@@ -311,7 +311,7 @@ export const Offer: React.FC = () => (
             </div>
             <div className="flex items-baseline gap-1 mb-6">
               <span className="text-3xl font-bold text-[#8A9A8A]">{item.price}</span>
-              {item.isAvailable && item.price.includes('PLN') && <span className="text-gray-400 text-xs">/ {item.duration}</span>}
+              {item.price.includes('PLN') && <span className="text-gray-400 text-xs">/ {item.duration}</span>}
             </div>
             <p className="text-xs text-gray-500 mb-6 leading-relaxed">{item.description}</p>
             <ul className="space-y-3 mb-8 flex-grow">
@@ -512,11 +512,11 @@ export const Contact: React.FC = () => {
 };
 
 export const Footer: React.FC = () => (
-  <footer className="bg-[#2D3436] text-white py-12">
+  <footer className="bg-[#2D3436] text-white py-10">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mb-10">
         <div className="md:col-span-2">
-          <a href="/" className="text-3xl serif font-semibold text-[#8A9A8A] mb-6 block hover:opacity-80 transition-opacity">
+          <a href="/" className="text-3xl serif font-semibold text-[#8A9A8A] mb-5 block hover:opacity-80 transition-opacity">
             {BRAND_NAME}
           </a>
           <p className="text-gray-400 text-xs leading-relaxed max-w-sm">
@@ -524,24 +524,24 @@ export const Footer: React.FC = () => (
           </p>
         </div>
         <div>
-          <h4 className="font-bold mb-6 text-[10px] uppercase tracking-[0.3em] text-white/30">Nawigacja</h4>
-          <ul className="space-y-3 text-gray-400 text-xs">
+          <h4 className="font-bold mb-5 text-[10px] uppercase tracking-[0.3em] text-white/30">Nawigacja</h4>
+          <ul className="space-y-2.5 text-gray-400 text-xs">
             {NAVIGATION.map(item => (
               <li key={item.name}><a href={item.href} className="hover:text-[#8A9A8A] transition-colors">{item.name}</a></li>
             ))}
           </ul>
         </div>
         <div>
-          <h4 className="font-bold mb-6 text-[10px] uppercase tracking-[0.3em] text-white/30">Kontakt</h4>
-          <p className="text-gray-400 text-[11px] mb-2">{ABOUT_ME.name}</p>
-          <p className="text-white font-bold text-base mb-6">{CONTACT_INFO.phone}</p>
+          <h4 className="font-bold mb-5 text-[10px] uppercase tracking-[0.3em] text-white/30">Kontakt</h4>
+          <p className="text-gray-400 text-[11px] mb-1.5">Katarzyna Organ</p>
+          <p className="text-white font-bold text-base mb-5">{CONTACT_INFO.phone}</p>
           <p className="text-gray-400 text-[9px] leading-relaxed uppercase tracking-wider">
             Online: MS Teams / Google Meet / WhatsApp
           </p>
         </div>
       </div>
-      <div className="pt-8 border-t border-white/5 text-center text-gray-600 text-[9px] uppercase tracking-[0.4em]">
-        <p>&copy; {new Date().getFullYear()} {BRAND_NAME} — {ABOUT_ME.name}. Psychologia i Terapia.</p>
+      <div className="pt-6 border-t border-white/5 text-center text-gray-600 text-[9px] uppercase tracking-[0.4em]">
+        <p>&copy; {new Date().getFullYear()} {BRAND_NAME} — Katarzyna Organ. Psychologia i Terapia.</p>
       </div>
     </div>
   </footer>
